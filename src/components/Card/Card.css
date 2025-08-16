@@ -1,0 +1,72 @@
+.coffee-card {
+  overflow: hidden;
+  width: 19rem;
+}
+
+@media (max-width: 1024px) {
+  .coffee-card {
+    overflow: hidden;
+    width: 17rem;
+  }
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+}
+
+.tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #f6c768;
+  padding: 4px 8px;
+  font-size: 0.805rem;
+  color: #302522;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.name-price h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.price {
+  background: #bee3cc;
+  padding: 4px 8px;
+  font-size: 0.805rem;
+  color: #111315;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.votes {
+  color: #4d5562;
+}
+
+.sold-out {
+  color: #ed735d;
+  font-weight: bold;
+}

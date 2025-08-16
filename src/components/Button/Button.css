@@ -1,0 +1,11 @@
+.button {
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.button.active {
+  background-color: #4d5562;
+  border-radius: 9px;
+  padding: 10px;
+}
