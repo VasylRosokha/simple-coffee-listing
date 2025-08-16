@@ -38,6 +38,6 @@ and lets users filter between **All products** and **Available now**.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/simple-coffee-listing.git
+   git clone https://github.com/VasylRosokha/simple-coffee-listing.git
    cd simple-coffee-listing
 
